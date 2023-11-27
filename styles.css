@@ -8,6 +8,41 @@ body {
     background-color: white;
 }
 
+.article-title {
+    color:grey}
+
+.size-footer {
+    font-size: 10px
+}
+
+h1, h2, h3 {
+    font:'Noto Sans JP', sans-serif;
+}
+
+#image-size{
+    width:100%
+}
+
+nav a {
+    color: indianred;
+}
+
+main a:hover {
+    color: darkgreen;
+}
+
+ul>li {
+    color:forestgreen;
+}
+
+.button + button {
+    background-color:indianred;
+}
+
+.email-field:focus {
+    background-color: forestgreen;
+}
+
 /* 1: Geef de twee <h3>-tags van de artikelen ("Latest articles") in het HTML-document beiden de class-naam "article-title".
 Gebruik dit om de tekstkleur van de titels te veranderen naar grijs, met de declaratie "color: grey;" */
 
